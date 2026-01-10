@@ -30,4 +30,4 @@ jobs:
       - name: Run Format Check
         # This will exit with a non-zero code if files are not formatted,
         # causing the GitHub Action to fail (Red X).
-        run: bun run format --check
+        run: bun run format:check
