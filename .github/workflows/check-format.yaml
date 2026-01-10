@@ -1,4 +1,4 @@
-name: Format Data Files
+name: Check JSON Data Formatting
 
 on:
   pull_request:
@@ -27,12 +27,7 @@ jobs:
       - name: Install Dependencies
         run: bun install
 
-      - name: Run Formatter
-        run: bun run format
-
-      - name: Commit and Push Changes
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "chore: auto-format JSON files [skip ci]"
-          # Only commits if "bun run format" actually changed files
-          file_pattern: '*.json'
+      - name: Run Format Check
+        # This will exit with a non-zero code if files are not formatted,
+        # causing the GitHub Action to fail (Red X).
+        run: bun run format --check
