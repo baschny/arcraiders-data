@@ -1,0 +1,38 @@
+name: Format Data Files
+
+on:
+  pull_request:
+    branches: [ "main" ] # Or your primary branch name
+
+jobs:
+  format:
+    runs-on: ubuntu-latest
+
+    # Permissions are required for the action to push changes back to the PR
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          # Required: Fetch the PR branch head, not a detached commit
+          ref: ${{ github.head_ref }}
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1
+        with:
+          bun-version: latest
+
+      - name: Install Dependencies
+        run: bun install
+
+      - name: Run Formatter
+        run: bun run format
+
+      - name: Commit and Push Changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: auto-format JSON files [skip ci]"
+          # Only commits if "bun run format" actually changed files
+          file_pattern: '*.json'
