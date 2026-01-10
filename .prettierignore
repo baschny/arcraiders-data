@@ -1,0 +1,11 @@
+# 1. Ignore common heavy folders
+node_modules/
+.git/
+
+# 2. Ignore common file types EXCEPT JSON
+*.md
+*.yaml
+*.yml
+*.js
+*.ts
+*.txt

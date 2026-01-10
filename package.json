@@ -2,7 +2,7 @@
   "name": "arcraiders-data",
   "type": "module",
   "scripts": {
-    "check": "prettier --check .",
+    "format:check": "prettier --check .",
     "format": "prettier --write ."
   },
   "devDependencies": {

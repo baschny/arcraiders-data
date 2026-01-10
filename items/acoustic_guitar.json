@@ -46,9 +46,9 @@
   },
   "type": "Quick Use",
   "rarity": "Legendary",
+  "stackSize": 1,
   "value": 7000,
   "weightKg": 1,
-  "stackSize": 1,
   "recyclesInto": {
     "metal_parts": 4,
     "wires": 6

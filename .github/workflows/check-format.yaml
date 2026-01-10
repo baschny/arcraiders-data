@@ -1,0 +1,33 @@
+name: Check JSON Data Formatting
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  format:
+    runs-on: ubuntu-latest
+
+    # Permissions are required for the action to push changes back to the PR
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          # Required: Fetch the PR branch head, not a detached commit
+          ref: ${{ github.head_ref }}
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1
+        with:
+          bun-version: latest
+
+      - name: Install Dependencies
+        run: bun install
+
+      - name: Run Format Check
+        # This will exit with a non-zero code if files are not formatted,
+        # causing the GitHub Action to fail (Red X).
+        run: bun run format:check
