@@ -572,7 +572,7 @@
           "de": "Der Unterbau und das Fahrgestell des Wohnwagens werden gebaut.",
           "en": "Building the base structure and frame of the caravan",
           "es": "Construye la estructura y el chasis de la caravana.",
-          "fr": "Construction de la structure de base et du châssis de la caravane",
+          "fr": "Construction de la structure de base et du châssis de la caravane.",
           "he": "בניית מבנה הבסיס והשלדה של הקרוואן",
           "hr": "Izgradnja osnovne strukture i okvira karavane",
           "it": "Costruzione della struttura di base e del telaio della roulotte",
@@ -702,7 +702,7 @@
           "de": "Wände und Dach werden gefertigt, Hauptsysteme installiert und Innenraumaufteilung wird festgelegt.",
           "en": "Building walls and roof, installing core systems, and defining the interior layout",
           "es": "Construye las paredes y el techo, instala los sistemas esenciales y define la disposición del interior.",
-          "fr": "Construction des murs et du toit, installation des systèmes centraux et définition de l'aménagement intérieur",
+          "fr": "Construction des murs et du toit, installation des systèmes centraux et définition de l'aménagement intérieur.",
           "he": "בניית הקירות והגג, התקנת מערכות ליבה והגדרת הפריסה הפנימית",
           "hr": "Gradnja zidova i krova, instalacija osnovnih sustava i definiranje unutarnjeg rasporeda",
           "it": "Costruzione delle pareti e del tetto, installazione dei sistemi principali e definizione della disposizione interna",
@@ -4914,7 +4914,7 @@
   },
   {
     "id": "phantom_targets_project",
-    "disabled": false,
+    "disabled": true,
     "name": {
       "da": "Fantommål",
       "de": "Phantomziele",
@@ -5110,7 +5110,7 @@
   },
   {
     "id": "phantom_targets_part_2_project",
-    "disabled": false,
+    "disabled": true,
     "name": {
       "da": "Fantommål",
       "de": "Phantomziele",
@@ -5337,5 +5337,317 @@
     ],
     "endDate": 1788771600,
     "startDate": 1787043600
+  },
+  {
+    "id": "ascending_the_mountain_project",
+    "disabled": false,
+    "name": {
+      "da": "",
+      "de": "Den Berg hinauf",
+      "en": "Ascending The Mountain",
+      "es": "Subir a la montaña",
+      "fr": "Grimper la montagne",
+      "he": "",
+      "hr": "",
+      "it": "Scalare la montagna",
+      "ja": "山を登る",
+      "ko-KR": "산을 오르며",
+      "no": "",
+      "pl": "Wspinaczka na szczyt",
+      "pt": "Subindo a montanha",
+      "pt-BR": "Subindo a montanha",
+      "ru": "Восхождение на гору",
+      "sr": "",
+      "tr": "Dağa Tırmanış",
+      "uk": "",
+      "zh-CN": "攀越群山",
+      "zh-TW": "登上山脈"
+    },
+    "description": {
+      "da": "",
+      "de": "Ingenieure aus dem Stadtviertel Ferrovia in Toledo werden für ihr technisches Können verehrt … und dafür, dass sie bereit sind, über die üblichen Sicherheitsmaßnahmen hinauszugehen. Gerüchten zufolge arbeiten sie gemeinsam mit Apollo an einem sehr experimentellen „Transportmittel“, das uns dorthin bringen soll, wo die U-Bahn uns nicht hinbringen kann. Er hat Raider um Hilfe gebeten, die sich mit Plänen auskennen und unauffällig bleiben können.",
+      "en": "Engineers from the Ferrovia neighborhood of Toledo are revered for their technical prowess… And their willingness to go beyond standard safety measures. Rumor has it that they’re working with Apollo on a very experimental piece of “transportation” to take us where the Tubes can't reach. He’s requested assistance from Raiders who understand schematics, and can keep their heads down.",
+      "es": "Si por algo son famosos los ingenieros del barrio Ferrovia de Toledo es por su pericia técnica... y por sus ganas de desafiar las medidas de seguridad. Según los rumores, están trabajando con Apollo en un proyecto de «transporte» altamente experimental que nos permitirá llegar allá donde los tubos no alcanzan. Necesita ayuda de Raiders que sepan leer esquemas y que puedan dedicar todo su tiempo al proyecto.",
+      "fr": "Les ingénieurs du quartier de Ferrovia, à Toledo, sont réputés pour leurs prouesses techniques... et pour leur propension à aller au-delà des mesures de sécurité habituelles. La rumeur court qu'ils travaillent avec Apollo sur un moyen de « transport » très expérimental, destiné à nous emmener là où les Tubes ne peuvent pas aller. Il a demandé l'aide de Raiders capables de comprendre des schémas techniques et de se faire discrets.",
+      "he": "",
+      "hr": "",
+      "it": "Gli ingegneri del quartiere Ferrovia di Toledo sono venerati per la loro abilità tecnica... e per la loro disponibilità ad andare oltre le misure di sicurezza standard. Si vocifera che stiano collaborando con Apollo a un mezzo di \"trasporto\" altamente sperimentale, in grado di portarci dove la metro non riesce ad arrivare. Ha chiesto aiuto ai Raider che capiscono gli schemi e sanno mantenere il riserbo.",
+      "ja": "トレドのフェロヴィア地区の技師たちは、その卓越した技術力で尊敬を受けている……そして、安全対策を踏み越えることにもためらいがない。噂によれば、彼らはアポロと手を組み、チューブではたどり着けない場所へ向かうための「輸送手段」を試験的に開発しているらしい。そこで彼は、図を読み解き、目立たずに行動できるレイダーの協力を求めている。",
+      "ko-KR": "톨레도 페로비아 지역의 엔지니어들은 탁월한 기술력으로 칭송받습니다... 기존의 안전 기준을 과감하게 뛰어넘는 것으로도 유명하죠. 소문에 따르면 이들은 아폴로와 협업해 튜브가 닿지 않는 곳까지 사람들을 실어 나르는 매우 실험적인 '운송 수단'을 개발하고 있다고 합니다. 아폴로는 도면을 읽을 줄 알고, 은밀하게 움직일 줄 아는 레이더에게 도움을 요청했습니다.",
+      "no": "",
+      "pl": "Inżynierowie z dzielnicy Ferrovia w Toledo słyną z doskonałych umiejętności technicznych… oraz gotowości do wykraczania poza standardowe zabezpieczenia. Krążą pogłoski, że współpracują z Apollem nad eksperymentalnym środkiem „transportu”, który ma nas zabrać tam, gdzie nie docierają tunele. Poprosił on o pomoc łupieżców, którzy potrafią czytać projekty i zachować dyskrecję.",
+      "pt": "Engenheiros de Ferrovia, um bairro de Toledo, são conhecidos por sua perícia técnica... e sua disposição para ir além das medidas de segurança padrão. Boatos dizem que eles estão trabalhando com Apollo em um \"transporte\" bem experimental para nos levar aonde os tubos não conseguem. Ele solicitou auxílio de Raiders que entendem de diagramas e sabem manter a discrição.",
+      "pt-BR": "Engenheiros de Ferrovia, um bairro de Toledo, são conhecidos por sua perícia técnica... e sua disposição para ir além das medidas de segurança padrão. Boatos dizem que eles estão trabalhando com Apollo em um \"transporte\" bem experimental para nos levar aonde os tubos não conseguem. Ele solicitou auxílio de Raiders que entendem de diagramas e sabem manter a discrição.",
+      "ru": "В Толедо есть район Ферровия, в котором живут инженеры, славящиеся своим мастерством... и готовностью выходить далеко за рамки стандартных мер безопасности. Ходят слухи, что вместе с Аполлоном они разрабатывают весьма экспериментальный вид «транспорта», который позволит добраться туда, куда не доходят Туннели. Аполлону требуется помощь рейдера, который разбирается в схемах и умеет работать, не привлекая внимания.",
+      "sr": "",
+      "tr": "Toledo'nun Ferrovia mahallesinden mühendislerin teknik hünerlerine hürmet edilir... Ayrıca standart güvenlik önlemlerinin ötesine geçme isteklerine de saygı duyulur. Söylentilere göre Apollo ile birlikte bizi Boru'ların gidemediği yerlere götürecek son derece deneysel bir \"taşıma\" aparatı üzerinde çalışıyorlarmış. Şemalardan anlayan ve gözlerden ırak durabilen Raider'lardan yardım istiyor.",
+      "uk": "",
+      "zh-CN": "托雷多城费罗维亚街区的工程师们凭借精湛技艺受人敬仰……同时他们也敢于突破常规安全规范。有传闻称，他们正与阿波罗合作研发一款极具试验性质的“运载装置”，以前往暗道系统无法抵达的区域。他向精通图纸研究、行事低调的奇袭者寻求协助。",
+      "zh-TW": "來自托雷多費洛維亞分區的工程師們備受尊敬，因為他們技術高超…而且願意超越標準的安全措施。據傳他們正和阿波羅共同製作一種實驗性的「交通工具」，可帶我們到運輸管無法觸及的地方。他要求懂得設計圖並且能低調行動的掠手提供協助。"
+    },
+    "phases": [
+      {
+        "name": {
+          "da": "",
+          "de": "Forschung zur Mechanik in großen Höhen",
+          "en": "Research High-Altitude Mechanics",
+          "es": "Investigar la mecánica de gran altitud",
+          "fr": "Étudier les mécanismes de haute altitude",
+          "he": "",
+          "hr": "",
+          "it": "Ricerca sulla meccanica ad alta quota",
+          "ja": "高高度力学を研究する",
+          "ko-KR": "고고도 비행 원리 연구하기",
+          "no": "",
+          "pl": "Zbadaj mechanikę wysokościową",
+          "pt": "Pesquisar mecânicas de grandes altitudes",
+          "pt-BR": "Pesquisar mecânicas de grandes altitudes",
+          "ru": "Исследовать высотные механизмы",
+          "sr": "",
+          "tr": "Yüksek İrtifa Mekaniklerini Araştır",
+          "uk": "",
+          "zh-CN": "研究高空机械原理",
+          "zh-TW": "研究高海拔機制"
+        },
+        "description": {
+          "da": "",
+          "de": "Forschung zur Mechanik in großen Höhen",
+          "en": "Research High-Altitude Mechanics",
+          "es": "Investigar la mecánica de gran altitud",
+          "fr": "Étudier les mécanismes de haute altitude",
+          "he": "",
+          "hr": "",
+          "it": "Ricerca sulla meccanica ad alta quota",
+          "ja": "高高度力学を研究する",
+          "ko-KR": "고고도 비행 원리 연구하기",
+          "no": "",
+          "pl": "Zbadaj mechanikę wysokościową",
+          "pt": "Pesquisar mecânicas de grandes altitudes",
+          "pt-BR": "Pesquisar mecânicas de grandes altitudes",
+          "ru": "Исследовать высотные механизмы",
+          "sr": "",
+          "tr": "Yüksek İrtifa Mekaniklerini Araştır",
+          "uk": "",
+          "zh-CN": "研究高空机械原理",
+          "zh-TW": "研究高海拔機制"
+        },
+        "phase": 1,
+        "requirementItemIds": [
+          {
+            "itemId": "mechanical_components",
+            "quantity": 10
+          },
+          {
+            "itemId": "pop_trigger",
+            "quantity": 6
+          },
+          {
+            "itemId": "explosive_compound",
+            "quantity": 10
+          },
+          {
+            "itemId": "headphones",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "name": {
+          "da": "",
+          "de": "Zündungstests beginnen",
+          "en": "Begin Ignition Tests",
+          "es": "Iniciar las pruebas de ignición",
+          "fr": "Commencer les tests d'ignition",
+          "he": "",
+          "hr": "",
+          "it": "Avvia i test di accensione",
+          "ja": "起動テストを開始する",
+          "ko-KR": "점화 테스트 시작하기",
+          "no": "",
+          "pl": "Rozpocznij próby zapłonu",
+          "pt": "Iniciar testes de ignição",
+          "pt-BR": "Iniciar testes de ignição",
+          "ru": "Начать испытания системы запуска",
+          "sr": "",
+          "tr": "Yakma Testine Başla",
+          "uk": "",
+          "zh-CN": "启动点火测试",
+          "zh-TW": "開始點火測試"
+        },
+        "description": {
+          "da": "",
+          "de": "Zündungstests beginnen",
+          "en": "Begin Ignition Tests",
+          "es": "Iniciar las pruebas de ignición",
+          "fr": "Commencer les tests d'ignition",
+          "he": "",
+          "hr": "",
+          "it": "Avvia i test di accensione",
+          "ja": "起動テストを開始する",
+          "ko-KR": "점화 테스트 시작하기",
+          "no": "",
+          "pl": "Rozpocznij próby zapłonu",
+          "pt": "Iniciar testes de ignição",
+          "pt-BR": "Iniciar testes de ignição",
+          "ru": "Начать испытания системы запуска",
+          "sr": "",
+          "tr": "Yakma Testine Başla",
+          "uk": "",
+          "zh-CN": "启动点火测试",
+          "zh-TW": "開始點火測試"
+        },
+        "phase": 2,
+        "requirementItemIds": [
+          {
+            "itemId": "wires",
+            "quantity": 20
+          },
+          {
+            "itemId": "voltage_converter",
+            "quantity": 8
+          },
+          {
+            "itemId": "sentinel_firing_core",
+            "quantity": 2
+          },
+          {
+            "itemId": "rocket_thruster",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "name": {
+          "da": "",
+          "de": "Landungsfunktionen implementieren",
+          "en": "Implement Landing Capabilities",
+          "es": "Implementar funciones de aterrizaje",
+          "fr": "Mettre en œuvre les capacités d'atterrissage",
+          "he": "",
+          "hr": "",
+          "it": "Implementa le funzionalità di atterraggio",
+          "ja": "着陸機能を実装する",
+          "ko-KR": "착륙 기능 구현하기",
+          "no": "",
+          "pl": "Wdrażanie możliwości lądowania",
+          "pt": "Implementar capacidades de aterrissagem",
+          "pt-BR": "Implementar capacidades de aterrissagem",
+          "ru": "Реализовать возможность посадки",
+          "sr": "",
+          "tr": "İniş Kabiliyetini Gerçekleştir",
+          "uk": "",
+          "zh-CN": "增设降落功能",
+          "zh-TW": "安裝著陸功能"
+        },
+        "description": {
+          "da": "",
+          "de": "Landungsfunktionen implementieren",
+          "en": "Implement Landing Capabilities",
+          "es": "Implementar funciones de aterrizaje",
+          "fr": "Mettre en œuvre les capacités d'atterrissage",
+          "he": "",
+          "hr": "",
+          "it": "Implementa le funzionalità di atterraggio",
+          "ja": "着陸機能を実装する",
+          "ko-KR": "착륙 기능 구현하기",
+          "no": "",
+          "pl": "Wdrażanie możliwości lądowania",
+          "pt": "Implementar capacidades de aterrissagem",
+          "pt-BR": "Implementar capacidades de aterrissagem",
+          "ru": "Реализовать возможность посадки",
+          "sr": "",
+          "tr": "İniş Kabiliyetini Gerçekleştir",
+          "uk": "",
+          "zh-CN": "增设降落功能",
+          "zh-TW": "安裝著陸功能"
+        },
+        "phase": 3,
+        "requirementItemIds": [
+          {
+            "itemId": "ruined_parachute",
+            "quantity": 2
+          },
+          {
+            "itemId": "crash_mat",
+            "quantity": 10
+          },
+          {
+            "itemId": "shredder_gyro",
+            "quantity": 5
+          },
+          {
+            "itemId": "breathtaking_snow_globe",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "name": {
+          "da": "",
+          "de": "Letzte Anpassungen",
+          "en": "Final Tweaks",
+          "es": "Últimos retoques",
+          "fr": "Dernières retouches",
+          "he": "",
+          "hr": "",
+          "it": "Ritocchi finali",
+          "ja": "最終調整",
+          "ko-KR": "최종 조정",
+          "no": "",
+          "pl": "Ostatnie poprawki",
+          "pt": "Ajustes finais",
+          "pt-BR": "Ajustes finais",
+          "ru": "Последние штрихи",
+          "sr": "",
+          "tr": "Son Rötuşlar",
+          "uk": "",
+          "zh-CN": "最终调试",
+          "zh-TW": "最終調整"
+        },
+        "description": {
+          "da": "",
+          "de": "Letzte Anpassungen",
+          "en": "Final Tweaks",
+          "es": "Últimos retoques",
+          "fr": "Dernières retouches",
+          "he": "",
+          "hr": "",
+          "it": "Ritocchi finali",
+          "ja": "最終調整",
+          "ko-KR": "최종 조정",
+          "no": "",
+          "pl": "Ostatnie poprawki",
+          "pt": "Ajustes finais",
+          "pt-BR": "Ajustes finais",
+          "ru": "Последние штрихи",
+          "sr": "",
+          "tr": "Son Rötuşlar",
+          "uk": "",
+          "zh-CN": "最终调试",
+          "zh-TW": "最終調整"
+        },
+        "phase": 4,
+        "requirementItemIds": [
+          {
+            "itemId": "sensors",
+            "quantity": 30
+          },
+          {
+            "itemId": "broken_guidance_system",
+            "quantity": 3
+          },
+          {
+            "itemId": "advanced_electrical_components",
+            "quantity": 15
+          },
+          {
+            "itemId": "vaporizer_regulator",
+            "quantity": 3
+          }
+        ]
+      }
+    ],
+    "endDate": 1791331200,
+    "startDate": 1788854400
   }
 ]
